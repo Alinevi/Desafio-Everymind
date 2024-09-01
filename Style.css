@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif; /* Fonte da página */
+    margin: 20px; /* Espaço ao redor */
+}
+
+table {
+    width: 100%; /* Tabela ocupa toda a largura */
+    border-collapse: collapse; /* Remove espaços nas bordas */
+    margin-bottom: 20px; /* Espaço abaixo da tabela */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Borda fina */
+    padding: 8px; /* Espaço dentro das células */
+    text-align: center; /* Centraliza o texto */
+}
+
+th {
+    background-color: #f2f2f2; /* Fundo do cabeçalho */
+}
+
+form {
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Itens em coluna */
+    max-width: 300px; /* Largura máxima */
+}
+
+label, input {
+    margin-bottom: 10px; /* Espaço abaixo dos itens */
+}
